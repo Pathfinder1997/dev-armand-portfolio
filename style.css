@@ -9,14 +9,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #000000;
+    color: #000000;
     padding: 20px;
 }
 
 /* Header */
 header {
-    background-color: #2c3e50;
+    background-color: black;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -38,7 +38,7 @@ nav a:hover {
 /* Sections */
 section {
     margin-bottom: 40px;
-    background: #fff;
+    background: #9c9b9b;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -46,7 +46,7 @@ section {
 
 h2 {
     margin-bottom: 15px;
-    color: #2c3e50;
+    color: #000000;
 }
 
 /* Footer */
@@ -71,7 +71,7 @@ footer {
 }
 
 .project-card a {
-    color: #2980b9;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
 }

@@ -80,3 +80,10 @@ footer {
 .project-card a:hover {
     text-decoration: underline;
 }
+
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

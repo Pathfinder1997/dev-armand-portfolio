@@ -81,16 +81,19 @@ footer {
     text-decoration: underline;
 }
 
-video {
-  max-width: 100%;
-  height: fixed;
-  display: block;
-  margin: 0 auto;
-}
 .video-container {
   width: 100%;
-  max-width: 640px; /* optional max width */
-  margin: 0 auto;
-  padding: 0 10px; /* some padding so it’s not stuck to edges */
+  max-width: 640px; /* Optional max size for big screens */
+  margin: 20px auto; /* Center + vertical spacing */
+  padding: 0 15px;   /* Left and right padding on small screens */
+  box-sizing: border-box; /* Make padding count in width */
+}
+
+video {
+  width: 100%;    /* Make video fill container width */
+  height: auto;   /* Keep aspect ratio */
+  display: block; /* Remove inline gaps */
+  border-radius: 8px; /* Optional: smooth corners */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2); /* Optional: subtle shadow */
 }
 

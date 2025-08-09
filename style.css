@@ -87,3 +87,10 @@ video {
   display: block;
   margin: 0 auto;
 }
+.video-container {
+  width: 100%;
+  max-width: 640px; /* optional max width */
+  margin: 0 auto;
+  padding: 0 10px; /* some padding so it’s not stuck to edges */
+}
+

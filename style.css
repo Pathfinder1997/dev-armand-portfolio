@@ -87,6 +87,7 @@ footer {
   margin: 20px auto; /* Center + vertical spacing */
   padding: 0 15px;   /* Left and right padding on small screens */
   box-sizing: border-box; /* Make padding count in width */
+  background-color: #000000;
 }
 
 video {
